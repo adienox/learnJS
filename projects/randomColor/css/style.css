@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	font-family: Arial;
+	height: 100%;
+	background: #f1f1f1;
+}
+
+.container {
+	text-align: center;
+	padding-top: 50%;
+}
+
+.displayer {
+	font-size: 35px;
+	font-weight: 800;
+	margin-bottom: 10px;
+}
+
+.btn {
+	border: none;
+	background: #ccc;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 14px 20px;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:active {
+	box-shadow: none;
+}

@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+body, html {
+	height: 100%;
+}
+
+.container {
+	width: 100%;
+	height: 500px;
+	border: 1px dotted #555;
+}
+
+.character {
+	width: 20px;
+	height: 100px;
+	background: red;
+	position: fixed;
+	top: 400px;
+}
+
+.jump {
+	animation: jumpy 0.5s linear infinite;
+}
+
+.block {
+	width: 20px;
+	height: 20px;
+	background: blue;
+	position: fixed;
+	top: 480px;
+	left: calc(100% - 20px);
+	animation: blocky 3s linear infinite;
+}
+
+@keyframes blocky {
+	0% {
+		left: calc(100% - 20px);
+	}
+
+	100% {
+		left: 0px;
+	}
+}
+
+@keyframes jumpy {
+	0%{
+		top: 400px;
+	}
+	30% {
+		top: 350px;
+	}
+	70% {
+		top: 350px;
+	}
+	100% {
+		top: 400px;
+	}
+}

@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	font-family: Arial;
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.heading {
+	font-size: 35px;
+	font-weight: 800;
+	border-bottom: 3px solid lightblue;
+	margin: 10px 0;
+}
+
+.card {
+	text-align: center;
+	border-radius: 5px;
+	width: 90%;
+	flex: 1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img {
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	margin: 10px 0;
+}
+
+.card .name {
+	font-weight: 600;
+}
+.card .job {
+	color: #00e6e6;
+}
+.btn {
+	border: none;
+	background: #ccc;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 14px 20px;
+	margin: 10px;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:active {
+	box-shadow: none;
+}
